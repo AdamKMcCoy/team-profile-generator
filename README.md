@@ -12,11 +12,8 @@ This challenge was to create a Node.js command application that takes in informa
 
   * [License](#license)
 
-  * [Contributing](#contributing)
-
   * [Tests](#tests)
 
-  * [Questions](#questions)
 
   ## Installation
   To install necessary dependencies, run the following command:  
@@ -27,19 +24,6 @@ This challenge was to create a Node.js command application that takes in informa
 
   ## License
   None
-  
-  ## Contributing
-  Please do not contribute to this Repo
 
   ## Tests
   npm test
-
-  ## Questions
-  If you have any questions please post them to my GitHub at https://github.com/mslnance or [click here](mailto:lnance6@gmail.com?subject=GitHub%20Question) to e-mail me.
-
-  ## Screenshot
-  ![Screenshot](./Screenshot.PNG?raw=true "Screenshot")
-  
-  ## Walkthrough Video
-  https://drive.google.com/file/d/1nlnue_wcmNbDAaBJF-SIeqpzFJgnM1XI/view
-
