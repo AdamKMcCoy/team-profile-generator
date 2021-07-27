@@ -186,7 +186,7 @@ const promptOthers = allEmployees => {
                 others = new Engineer(othersData.name, othersData.id, othersData.email, othersData.github);
                 let role = {role: "Engineer"}
                 allEmployees.engineers.push({...othersData,...role})
-                // idArray.push(answers.id);
+               
                 return promptOthers(allEmployees);
             })
         } else if (role === "Intern") {
