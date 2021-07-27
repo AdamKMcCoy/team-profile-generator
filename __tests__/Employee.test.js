@@ -10,25 +10,25 @@ test('creates a employee class', () => {
   });
 
   test("gets employee's name value", () => {
-    const employee = new Employee('Tom', 1, 'toma@anywho.com');
+    const employee = new Employee('adam', 1, 'toma@anywho.com');
   
     expect(employee.getName()).toEqual(expect.any(String));
   });
 
   test("gets employee's ID value", () => {
-    const employee = new Employee('Tom', 1, 'toma@anywho.com');
+    const employee = new Employee('adam', 1, 'toma@anywho.com');
   
     expect(employee.getId()).toEqual(expect.any(Number));
   });
 
   test("gets employee's email value", () => {
-    const employee = new Employee('Tom', 1, 'toma@anywho.com');
+    const employee = new Employee('adam', 1, 'toma@anywho.com');
   
     expect(employee.getEmail()).toEqual(expect.any(String));
   });
 
   test("gets employee's role value", () => {
-    const employee = new Employee('Tom', 1, 'toma@anywho.com');
+    const employee = new Employee('adam', 1, 'toma@anywho.com');
   
     expect(employee.getRole()).toEqual(expect.any(String));
   });
