@@ -2,18 +2,11 @@ const inquirer = require('inquirer');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
-// const fs= require('fs');
-// const path= require('path');
-// const OUTPUT_DIR = path.resolve(__dirname, "output");
-// const outputPath=path.join(OUTPUT_DIR, "team.html");
-// const render=require("./src/page-template");
-//const { isDeclareVariable } = require('@babel/types');
 const generateSite = require('./src/page-template');
 const writeFile = require('./utils/generateSite');
 
 
 
-// const promptMember =  () => {
     
 //     inquirer.prompt ([
 //       {
@@ -261,13 +254,6 @@ const promptOthers = allEmployees => {
     })
 };
 
-// const buildComplete = () => {
-    
-//     if (!fs.existsSync(OUTPUT_DIR)){
-//         fs.mkdirSync(OUTPUT_DIR)
-//     }
-//     fs.writeFileSync(outputPath,render(allManagers,allEngineers,allInterns), "utf-8");
-// }
 
 promptManager()
     .then(promptOthers)

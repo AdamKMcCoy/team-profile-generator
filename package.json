@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mslnance/team-profile-generator.git"
+    "url": "https://github.com/AdamKMcCoy/team-profile-generator"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mslnance/team-profile-generator/issues"
+    "url": "https://github.com/AdamKMcCoy/team-profile-generator"
   },
-  "homepage": "https://github.com/mslnance/team-profile-generator#readme"
+  "homepage": "https://github.com/AdamKMcCoy/team-profile-generator/blob/main/README.md"
 }
